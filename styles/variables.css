@@ -1,1 +1,10 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --background-color: #FFF;
+    --accent-color: #000;
+    --base-gradiente: #d3d3d3;
+    --start-gradiente: #e7e7e7;
+    --finish-gradiente: #1a1a1a;
+    --heart: #FF0000;
+    --contour: #000;
+}
