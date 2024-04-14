@@ -12,3 +12,140 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+@keyframes slide {
+    0% {
+        left: 0;
+        /* начальный сдвиг */
+    }
+
+    100% {
+        left: 4px;
+        /* конечный сдвиг */
+    }
+}
+
+@keyframes scaleHeart {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes sparks {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+
+    0% {
+        opacity: 0%;
+    }
+}
+.quad_button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 0;
+    height: 100%;
+    background-color: var(--accent-color);
+    transition: all 0.3s ease-in-out;
+    background-blend-mode: difference;
+  }
+.theme-menu__button::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 32px;
+    width: 0%;
+    height: 2px;
+    background-color: var(--accent-color);
+    transition: width 0.3s ease;
+  }
+.theme-menu__button:disabled,
+.theme-menu__button:focus-visible,
+.theme-menu__button:hover {
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+.sparks {
+    opacity: 0;
+    transition: all 0.3s ease-in;
+  }
+.card__icon-button:focus-visible {
+    border: 2px solid var(--accent-color);
+    transition: all 0.3s ease;
+  }
+  
+  .quad_button:focus-visible {
+    outline: none;
+    box-shadow: 2px 2px var(--accent-color);
+    transition: all 0.3s ease;
+  }
+
+.like-icon:hover {
+    .core {
+      opacity: 100%;
+      transition: all 0.3s ease-in;
+    }
+  
+    .main-body {
+      opacity: 100%;
+      transition: all 0.3s ease-in 0.05s;
+    }
+  }
+  
+  .like-icon:not(:hover) {
+    .core {
+      opacity: 0;
+      transition: all 0.3s ease-in 0.03s;
+    }
+  }
+  
+  .like-icon:active {
+  
+    .core,
+    .main-body {
+      fill: var(--heart);
+      opacity: 100%;
+      transition: all 0.3s ease-in;
+    }
+  }
+  .like-icon.is-liked .core{
+    fill: var(--heart);
+    transition: all 0.3s ease-in;
+    opacity: 100%;
+  }
+  .like-icon.is-liked .contour{
+    fill: var(--heart);
+    transition: all 0.3s ease-in 0.03s;
+  }
+  
+  .like-icon.is-liked .main-body{
+    fill: var(--heart);
+    transition: all 0.3s ease-in 0.06s;
+    opacity: 100%;
+  }
+  
+  .like-icon{
+    transform: scale(1);
+   }
+  
+  .like-icon.is-liked {
+    animation: scaleHeart 0.3s ease-in forwards 0.1s;
+   }
+   
+   
+   .like-icon.is-liked .sparks{
+    animation: sparks 0.3s ease-in 0.3s;
+   }

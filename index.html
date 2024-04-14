@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" href="./svg/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="./images/">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="dark light">
   <title>Закрывающий тег</title>
   <link rel="stylesheet" href="./fonts/fonts.css" />
   <link rel="stylesheet" href="./styles/variables.css" />
@@ -17,10 +19,10 @@
 
 <body class="page">
   <header class="header">
-    <hgroup class="header__hgroup">
-      <h1 class="header__title">&lt;/html&gt;</h1>
-      <h2 class="header__subtitle">Закрывающий тег</h2>
-    </hgroup>
+    <div class="header__hgroup">
+      <a class="header__title">&lt;/html&gt;</a>
+      <h1 class="header__subtitle">Закрывающий тег</h1>
+    </div>
     <nav class="theme-menu header__theme-menu">
       <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
       <ul class="theme-menu__list">
@@ -43,10 +45,10 @@
     </nav>
   </header>
   <main class="contend">
-    <article class="card sprint_zero">
+    <article class="card">
       <h2 class="card__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
       <div class="card__container">
-        <img class="card__image" src="./images/truck.png" alt="Грузовик">
+        <img class="card__image contrast" src="./images/truck.png" alt="Грузовик">
       </div>
       <div class="card__description">
         <p>Это было самое начало пути. На этом этапе важно было проникнуться основами и
@@ -54,7 +56,7 @@
         <p>Место для ваших воспоминаний о начале обучения.</p>
       </div>
       <div class="card__controls">
-        <button class="card__icon-button">
+        <button type="button" class="card__icon-button">
           <svg class="like-icon" width="39.000000" height="36.000000" viewBox="0 0 39 36" fill="none"
             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g class="heart">
@@ -77,13 +79,12 @@
         <button class="card__like-button button quad_button" type="button"><span class="button__text span">Like
           </span></button>
       </div>
-      </div>
 
     </article>
-    <article class="card sprint_first">
+    <article class="card">
       <h2 class="card__title">1 спринт: Я — чистый лист</h2>
       <div class="card__container">
-        <img class="card__image" src="./images/truck.png" alt="Грузовик">
+        <img class="card__image brightness" src="./images/truck.png" alt="Грузовик">
       </div>
       <div class="card__description">
         <p>На первых этапах мы работали со страхами и сомнениями, которые часто испытывают новички. Один из них — страх
@@ -92,7 +93,7 @@
         <p>Место для ваших воспоминаний о начале первого спринта.</p>
       </div>
       <div class="card__controls">
-        <button class="card__icon-button">
+        <button type="button" class="card__icon-button">
           <svg class="like-icon" width="39.000000" height="36.000000" viewBox="0 0 39 36" fill="none"
             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g class="heart">
@@ -115,13 +116,12 @@
         <button class="card__like-button button quad_button" type="button"><span class="button__text span">Like
           </span></button>
       </div>
-      </div>
 
     </article>
-    <article class="card sprint_first-con">
+    <article class="card ">
       <h2 class="card__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
       <div class="card__container">
-        <img class="card__image" src="./images/truck.png" alt="Грузовик">
+        <img class="card__image grayscale" src="./images/truck.png" alt="Грузовик">
       </div>
       <div class="card__description">
         <p>Первый проект — позади! Но это всё ещё самое начало пути. Радость могла быстро померкнуть и смениться
@@ -129,7 +129,7 @@
         <p>Место для ваших воспоминаний о начале обучения.</p>
       </div>
       <div class="card__controls">
-        <button class="card__icon-button">
+        <button type="button" class="card__icon-button">
           <svg class="like-icon" width="39.000000" height="36.000000" viewBox="0 0 39 36" fill="none"
             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g class="heart">
@@ -152,13 +152,12 @@
         <button class="card__like-button button quad_button" type="button"><span class="button__text span">Like
           </span></button>
       </div>
-      </div>
 
     </article>
-    <article class="card sprint_second">
+    <article class="card ">
       <h2 class="card__title">2 спринт: Погоня за идеалом</h2>
       <div class="card__container">
-        <img class="card__image" src="./images/truck.png" alt="Грузовик">
+        <img class="card__image saturate" src="./images/truck.png" alt="Грузовик">
       </div>
       <div class="card__description">
         <p>На этом этапе вы уже достаточно разбирались в основах вёрстки, чтобы понять, как много ещё впереди. Вы могли
@@ -167,7 +166,7 @@
         <p>Место для ваших воспоминаний об обучении.</p>
       </div>
       <div class="card__controls">
-        <button class="card__icon-button">
+        <button type="button" class="card__icon-button">
           <svg class="like-icon" width="39.000000" height="36.000000" viewBox="0 0 39 36" fill="none"
             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g class="heart">
@@ -190,13 +189,12 @@
         <button class="card__like-button button quad_button" type="button"><span class="button__text span">Like
           </span></button>
       </div>
-      </div>
 
     </article>
-    <article class="card sprint_second-con">
+    <article class="card">
       <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
       <div class="card__container">
-        <img class="card__image" src="./images/truck.png" alt="Грузовик">
+        <img class="card__image hue-rotate" src="./images/truck.png" alt="Грузовик">
       </div>
       <div class="card__description">
         <p>Всё это время вы были не одиноки (хотя, возможно, иногда и чувствовали, что одни против целого мира). Вас
@@ -206,7 +204,7 @@
         <p>Место для ваших воспоминаний об обучении.</p>
       </div>
       <div class="card__controls">
-        <button class="card__icon-button">
+        <button type="button" class="card__icon-button">
           <svg class="like-icon" width="39.000000" height="36.000000" viewBox="0 0 39 36" fill="none"
             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g class="heart">
@@ -229,13 +227,12 @@
         <button class="card__like-button button quad_button" type="button"><span class="button__text span">Like
           </span></button>
       </div>
-      </div>
 
     </article>
-    <article class="card sprint_third">
+    <article class="card ">
       <h2 class="card__title">3 спринт: Обходные стратегии</h2>
       <div class="card__container">
-        <img class="card__image" src="./images/truck.png" alt="Грузовик">
+        <img class="card__image sepia" src="./images/truck.png" alt="Грузовик">
       </div>
       <div class="card__description">
         <p>На этом курсе вы постоянно решали разные задачи. В какой-то момент вам могло показаться, что решения просто
@@ -243,7 +240,7 @@
         <p>Место для ваших воспоминаний об обучении.</p>
       </div>
       <div class="card__controls">
-        <button class="card__icon-button">
+        <button type="button" class="card__icon-button">
           <svg class="like-icon" width="39.000000" height="36.000000" viewBox="0 0 39 36" fill="none"
             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g class="heart">
@@ -266,13 +263,12 @@
         <button class="card__like-button button quad_button" type="button"><span class="button__text span">Like
           </span></button>
       </div>
-      </div>
 
     </article>
-    <article class="card sprint_third-con">
+    <article class="card">
       <h2 class="card__title">3 спринт: Когда опускаются руки</h2>
       <div class="card__container">
-        <img class="card__image" src="./images/truck.png" alt="Грузовик">
+        <img class="card__image invert" src="./images/truck.png" alt="Грузовик">
       </div>
       <div class="card__description">
         <p>Во время учёбы часто возникает чувство, когда не знаешь, за что хвататься. Вроде и проектную пора сдавать, и
@@ -281,7 +277,7 @@
         <p>Место для ваших воспоминаний об обучении.</p>
       </div>
       <div class="card__controls">
-        <button class="card__icon-button">
+        <button type="button" class="card__icon-button">
           <svg class="like-icon" width="39.000000" height="36.000000" viewBox="0 0 39 36" fill="none"
             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g class="heart">
@@ -304,24 +300,23 @@
         <button class="card__like-button button quad_button" type="button"><span class="button__text span">Like
           </span></button>
       </div>
-      </div>
 
     </article>
-    <article class="card sprint_finish">
+    <article class="card">
       <h2 class="card__title">«Сейчас я здесь»</h2>
       <div class="card__container">
-        <img class="card__image" src="./images/truck.png" alt="Грузовик">
+        <img class="card__image mix" src="./images/truck.png" alt="Грузовик">
       </div>
       <div class="card__description">
         <p>Сейчас вы уже очень много знаете о вёрстке. Но это только начало. Во-первых, впереди ещё много материала про
           «красотищу». Во-вторых, с окончанием курса учёба не заканчивается. Вёрстка — это целый мир. И этот мир
           постоянно меняется. Познать его полностью не получится, но это тот случай, когда важен сам процесс познания.
           Ведь часто путь — и есть результат.</p>
+          <p>Место для ваших воспоминаний об обучении в Яндекс.Практикум и начало пути веб-разработчика.</p>
       </div>
       <div class="card__controls">
-        <button class="card__icon-button">
-          <svg class="like-icon" width="39.000000" height="36.000000" viewBox="0 0 39 36" fill="none"
-            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <button type="button" class="card__icon-button">
+          <svg class="like-icon" width="39.000000" height="36.000000" viewBox="0 0 39 36" fill="none">
             <g class="heart">
               <path class="contour"
                 d="M12 6L9 6L9 9L12 9L12 6ZM15 6L12 6L12 9L15 9L15 6ZM9 9L6 9L6 12L9 12L9 9ZM9 12L6 12L6 15L9 15L9 12ZM9 15L6 15L6 18L9 18L9 15ZM18 6L15 6L15 9L18 9L18 6ZM12 18L9 18L9 21L12 21L12 18ZM15 21L12 21L12 24L15 24L15 21ZM18 24L15 24L15 27L18 27L18 24ZM27 6L30 6L30 9L27 9L27 6ZM24 6L27 6L27 9L24 9L24 6ZM30 9L33 9L33 12L30 12L30 9ZM30 12L33 12L33 15L30 15L30 12ZM30 15L33 15L33 18L30 18L30 15ZM21 6L24 6L24 9L21 9L21 6ZM27 18L30 18L30 21L27 21L27 18ZM24 21L27 21L27 24L24 24L24 21ZM21 24L24 24L24 27L21 27L21 24ZM21 27L18 27L18 30L21 30L21 27ZM21 9L18 9L18 12L21 12L21 9Z"
@@ -342,43 +337,43 @@
         <button class="card__like-button button quad_button" type="button"><span class="button__text span">Like
           </span></button>
       </div>
-      </div>
 
     </article>
 
     <button class="save__button button quad_button " type="button" onclick="window['dialog-id'].showModal();"
-      aria-controls="dialog-id" aria-controls="dialog-id"> <span class="span">
-        <svg class="floppy">
-          <use href="#floppy">
-        </svg> Сохранить на память</span></button>
+      aria-controls="dialog-id"> <span class="span save__span">
+        <svg class="floppy save__floppy">
+          <use href="#floppy"> </use>
+        </svg> Сохранить&nbsp;на&nbsp;память</span></button>
   </main>
   <dialog id="dialog-id">
-    <div class="message">
-      <svg width="39" height="39" class="floppy message__floppy">
-        <use href="#floppy">
-      </svg>
-
-      <p class="insert-floppy">Вставьте дискету, чтобы продолжить</p>
-    </div>
-    <form class="submit">
-      <button class="submit-button" type="submit">ОК</button>
+      <p class="insert-floppy"> <svg class="message__floppy">
+        <use href="#message-floppy"> </use>
+      </svg>Вставьте дискету,&nbsp;чтобы продолжить</p>
+    <form method="dialog" class="submit">
+      <button class="button quad_button submit__button" type="submit"><span class="span">OK</span></button>
     </form>
   </dialog>
   <script src="./scripts/like.js"></script>
 </body>
 
 </html>
-<svg width="21" height="21" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<svg width="39" height="39" fill="currentColor">
   <symbol id="floppy" stroke="currentColor" fill="currentColor">
-    <path fill="#00CC14"
+    <path
       d="M0 0h1.615v1.615H0zM0 1.615h1.615V3.23H0zM0 3.23h1.615v1.615H0zM0 4.846h1.615v1.615H0zM0 6.462h1.615v1.615H0zM0 8.077h1.615v1.615H0zM0 9.692h1.615v1.615H0zM0 11.308h1.615v1.615H0zM0 12.923h1.615v1.615H0zM0 14.538h1.615v1.615H0zM0 16.154h1.615v1.615H0zM0 17.77h1.615v1.615H0zM0 19.385h1.615V21H0zM17.77 0v1.615h-1.616V0zM16.154 0v1.615h-1.615V0zM14.538 0v1.615h-1.615V0zM12.923 0v1.615h-1.615V0zM11.308 0v1.615H9.693V0zM9.692 0v1.615H8.077V0zM8.077 0v1.615H6.462V0zM6.462 0v1.615H4.847V0zM4.846 0v1.615H3.231V0zM3.23 0v1.615H1.617V0zM19.385 1.616V3.23H17.77V1.616zM4.847 3.23v1.615H3.232V3.23zM4.846 1.615V3.23H3.231V1.615zM4.846 4.846V6.46H3.23V4.846zM16.154 3.23v1.616H14.54V3.23zM16.154 1.615V3.23h-1.615V1.615zM16.154 4.846V6.46h-1.615V4.846zM12.924 3.23v1.615h-1.615V3.23zM12.923 1.615V3.23h-1.615V1.615zM12.923 4.846V6.46h-1.615V4.846zM16.154 6.462v1.615h-1.615V6.462zM14.538 6.461v1.615h-1.615V6.461zM12.923 6.462v1.615h-1.615V6.462zM11.308 6.462v1.615H9.693V6.462zM9.692 6.462v1.615H8.077V6.462zM8.077 6.462v1.615H6.462V6.462zM6.461 6.462v1.615H4.846V6.462zM4.846 6.462v1.615H3.231V6.462zM17.769 11.307v1.615h-1.615v-1.615zM16.153 11.308v1.615h-1.615v-1.615z" />
-    <path fill="#00CC14"
+    <path
       d="M14.538 11.307v1.615h-1.615v-1.615zM12.923 11.308v1.615h-1.615v-1.615zM11.307 11.308v1.615H9.692v-1.615zM9.692 11.307v1.615H8.077v-1.615zM8.077 11.308v1.615H6.462v-1.615zM6.461 11.308v1.615H4.846v-1.615zM4.846 11.307v1.615H3.23v-1.615zM17.77 12.923v1.615h-1.616v-1.615zM4.846 12.923v1.615H3.231v-1.615z" />
-    <path fill="#00CC14"
+    <path
       d="M17.77 14.538v1.615h-1.616v-1.615zM4.846 14.538v1.615H3.231v-1.615zM17.77 16.154v1.615h-1.615v-1.615zM4.846 16.154v1.615H3.231v-1.615zM4.846 17.77v1.614H3.23V17.77zM17.769 17.77v1.614h-1.615V17.77zM19.384 19.385V21H17.77v-1.615zM17.77 19.384V21h-1.616v-1.615zM16.154 19.385V21h-1.615v-1.615zM14.538 19.384V21h-1.615v-1.615zM12.923 19.385V21h-1.615v-1.615zM11.307 19.385V21H9.692v-1.615zM9.692 19.384V21H8.077v-1.615zM8.077 19.385V21H6.462v-1.615zM6.461 19.385V21H4.846v-1.615zM4.846 19.385V21H3.231v-1.615zM3.23 19.385V21H1.615v-1.615zM21 21h-1.615v-1.615H21zM21 19.385h-1.615V17.77H21zM21 17.77h-1.615v-1.616H21z" />
-    <path fill="#00CC14"
+    <path
       d="M21 16.155h-1.615V14.54H21zM21 14.538h-1.615v-1.615H21zM21 12.923h-1.615v-1.615H21zM21 11.307h-1.615V9.692H21z" />
-    <path fill="#00CC14"
-      d="M21 9.693h-1.615V8.078H21zM21 8.077h-1.615V6.462H21zM21 6.462h-1.615V4.847H21zM21 4.845h-1.615V3.23H21z" />
+    <path d="M21 9.693h-1.615V8.078H21zM21 8.077h-1.615V6.462H21zM21 6.462h-1.615V4.847H21zM21 4.845h-1.615V3.23H21z" />
   </symbol>
 </svg>
+<svg width="40" height="40" stroke="currentColor" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="message-floppy" stroke="currentColor" fill="currentColor">
+  <path
+    d="M.5.5h3v3h-3zM.5 3.5h3v3h-3zM.5 6.5h3v3h-3zM.5 9.5h3v3h-3zM.5 12.5h3v3h-3zM.5 15.5h3v3h-3zM.5 18.5h3v3h-3zM.5 21.5h3v3h-3zM.5 24.5h3v3h-3zM.5 27.5h3v3h-3zM.5 30.5h3v3h-3zM.5 33.5h3v3h-3zM.5 36.5h3v3h-3zM33.5.5v3h-3v-3zM30.5.5v3h-3v-3zM27.5.5v3h-3v-3zM24.5.5v3h-3v-3zM21.5.5v3h-3v-3zM18.5.5v3h-3v-3zM15.5.5v3h-3v-3zM12.5.5v3h-3v-3zM9.5.5v3h-3v-3zM6.5.5v3h-3v-3zM36.5 3.5v3h-3v-3zM9.5 6.5v3h-3v-3zM9.5 3.5v3h-3v-3zM9.5 9.5v3h-3v-3zM30.5 6.5v3h-3v-3zM30.5 3.5v3h-3v-3zM30.5 9.5v3h-3v-3zM24.5 6.5v3h-3v-3zM24.5 3.5v3h-3v-3zM24.5 9.5v3h-3v-3zM30.5 12.5v3h-3v-3zM27.5 12.5v3h-3v-3zM24.5 12.5v3h-3v-3zM21.5 12.5v3h-3v-3zM18.5 12.5v3h-3v-3zM15.5 12.5v3h-3v-3zM12.5 12.5v3h-3v-3zM9.5 12.5v3h-3v-3zM33.5 21.5v3h-3v-3zM30.5 21.5v3h-3v-3zM27.5 21.5v3h-3v-3zM24.5 21.5v3h-3v-3zM21.5 21.5v3h-3v-3zM18.5 21.5v3h-3v-3zM15.5 21.5v3h-3v-3zM12.5 21.5v3h-3v-3zM9.5 21.5v3h-3v-3zM33.5 24.5v3h-3v-3zM9.5 24.5v3h-3v-3zM33.5 27.5v3h-3v-3zM9.5 27.5v3h-3v-3zM33.5 30.5v3h-3v-3zM9.5 30.5v3h-3v-3zM9.5 33.5v3h-3v-3zM33.5 33.5v3h-3v-3zM36.5 36.5v3h-3v-3zM33.5 36.5v3h-3v-3zM30.5 36.5v3h-3v-3zM27.5 36.5v3h-3v-3zM24.5 36.5v3h-3v-3zM21.5 36.5v3h-3v-3zM18.5 36.5v3h-3v-3zM15.5 36.5v3h-3v-3zM12.5 36.5v3h-3v-3zM9.5 36.5v3h-3v-3zM6.5 36.5v3h-3v-3zM39.5 39.5h-3v-3h3zM39.5 36.5h-3v-3h3zM39.5 33.5h-3v-3h3zM39.5 30.5h-3v-3h3zM39.5 27.5h-3v-3h3zM39.5 24.5h-3v-3h3zM39.5 21.5h-3v-3h3zM39.5 18.5h-3v-3h3zM39.5 15.5h-3v-3h3zM39.5 12.5h-3v-3h3zM39.5 9.5h-3v-3h3z" />
+  </symbol>
+  </svg>
